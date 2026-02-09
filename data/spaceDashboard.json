@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "El Chepe Galáctico",
+    "image": "/assets/space.webp",
+    "telemetry": {
+      "inertialVelocity": 7.68,
+      "altitude": 390.0,
+      "apogee": 404.4,
+      "perigee": 389.4,
+      "inclination": 51.67,
+      "rangeToISS": 0.02,
+      "ppo2": 2.69,
+      "cabinTemp": 2.41,
+      "cabinPressure": 14.0,
+      "co2": 0.07,
+      "loopA": 26.53,
+      "loopB": 20.0,
+      "netPwr1": 0.0,
+      "netPwr2": 0.0
+    },
+    "checklistItems": [
+      { "id": 1, "name": "ALL SYSTEMS CHECK", "status": "Normal", "checked": true },
+      { "id": 2, "name": "RENDEZVOUS BURN SLOW", "status": "Normal", "checked": true },
+      { "id": 3, "name": "PREPARE RENDEZVOUS BURN", "status": "Normal", "checked": true },
+      { "id": 4, "name": "THERMAL SHIELD", "status": "Applied", "checked": true, "highlight": true },
+      { "id": 5, "name": "BURN GO/NO-GO", "status": "Normal", "checked": true },
+      { "id": 6, "name": "POWER COMPLETION", "status": "Awaiting", "checked": false, "warning": true },
+      { "id": 7, "name": "STATION DECK CHECK", "status": "Normal", "checked": true }
+    ],
+    "connections": [
+      { "name": "Manual Rigs", "status": "Connected" },
+      { "name": "Changelog", "status": "Connected" },
+      { "name": "Airlock", "status": "Connected" },
+      { "name": "Wing", "status": "Connected" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "La Nave Fantástica",
+    "image": "/assets/space2.webp",
+    "telemetry": {
+      "inertialVelocity": 8.12,
+      "altitude": 420.0,
+      "apogee": 430.5,
+      "perigee": 415.2,
+      "inclination": 53.12,
+      "rangeToISS": 0.05,
+      "ppo2": 2.85,
+      "cabinTemp": 3.1,
+      "cabinPressure": 13.8,
+      "co2": 0.09,
+      "loopA": 28.2,
+      "loopB": 22.5,
+      "netPwr1": 5.0,
+      "netPwr2": 4.5
+    },
+    "checklistItems": [
+      { "id": 1, "name": "ALL SYSTEMS CHECK", "status": "Normal", "checked": true },
+      { "id": 2, "name": "PREPARE ORBIT", "status": "Normal", "checked": true },
+      { "id": 3, "name": "THRUST CHECK", "status": "Normal", "checked": true },
+      { "id": 4, "name": "THERMAL SHIELD", "status": "Applied", "checked": true, "highlight": true },
+      { "id": 5, "name": "FUEL STATUS", "status": "Low", "checked": false, "warning": true },
+      { "id": 6, "name": "DOCKING SYSTEM", "status": "Normal", "checked": true }
+    ],
+    "connections": [
+      { "name": "Manual Rigs", "status": "Connected" },
+      { "name": "Airlock", "status": "Disconnected" },
+      { "name": "Wing", "status": "Connected" }
+    ]
+  }
+]
